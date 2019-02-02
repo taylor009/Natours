@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a87944e3-7fb3-4a51-9e36-1efda104202d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
     </list>
     <list id="0f74a831-5d87-4196-b1cc-49c81481c5a0" name="NO" comment="">
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/in-install" afterDir="false" />
@@ -3009,8 +3007,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="83" column="1" lean-forward="true" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+            <state relative-caret-position="459">
+              <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -3071,7 +3069,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -3111,7 +3109,7 @@
       <workItem from="1549078798663" duration="4793000" />
       <workItem from="1549083624909" duration="5324000" />
       <workItem from="1549137356024" duration="3065000" />
-      <workItem from="1549141345826" duration="1500000" />
+      <workItem from="1549141345826" duration="2097000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1549078933144</created>
@@ -3183,11 +3181,25 @@
       <option name="project" value="LOCAL" />
       <updated>1549141027087</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added sass nesting">
+      <created>1549143019523</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1549143019523</updated>
+    </task>
+    <task id="LOCAL-00012" summary="cleaned up style sheet">
+      <created>1549143459231</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1549143459231</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14682000" />
+    <option name="totallyTimeSpent" value="15279000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3200,6 +3212,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="79" width="1920" height="1082" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25827107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -3212,7 +3225,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290735" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32800853" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32800853" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3290735" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3290735" />
@@ -3237,7 +3250,9 @@
     <MESSAGE value="Converted to using BEM methodology." />
     <MESSAGE value="Added npm and sass dependency." />
     <MESSAGE value="Created npm compiler and converted to using sass" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created npm compiler and converted to using sass" />
+    <MESSAGE value="Added sass nesting" />
+    <MESSAGE value="cleaned up style sheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned up style sheet" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/hero.jpg">
@@ -3249,9 +3264,6 @@
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -3267,10 +3279,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2933" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="83" column="1" lean-forward="true" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+        <state relative-caret-position="459">
+          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
         </state>
       </provider>
     </entry>
