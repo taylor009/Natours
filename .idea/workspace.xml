@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a87944e3-7fb3-4a51-9e36-1efda104202d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/components/_form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/abstracts/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
     </list>
     <list id="0f74a831-5d87-4196-b1cc-49c81481c5a0" name="NO" comment="">
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/in-install" afterDir="false" />
@@ -2998,14 +2998,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
+            <state relative-caret-position="134">
               <caret line="273" column="62" selection-start-line="273" selection-start-column="62" selection-end-line="273" selection-end-column="62" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#1;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/components/_form.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="712">
+              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -3040,17 +3049,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/abstracts/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="405">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/pages/_home.scss">
+        <entry file="file://$PROJECT_DIR$/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="766">
-              <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+            <state relative-caret-position="332">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -3079,16 +3088,17 @@
         <option value="$PROJECT_DIR$/sass/components/_composition.scss" />
         <option value="$PROJECT_DIR$/sass/components/_feature-box.scss" />
         <option value="$PROJECT_DIR$/sass/layout/_header.scss" />
-        <option value="$PROJECT_DIR$/sass/abstracts/_variables.scss" />
         <option value="$PROJECT_DIR$/sass/components/_button.scss" />
         <option value="$PROJECT_DIR$/sass/base/_utilites.scss" />
         <option value="$PROJECT_DIR$/sass/components/_card.scss" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/sass/main.scss" />
         <option value="$PROJECT_DIR$/sass/components/_story.scss" />
         <option value="$PROJECT_DIR$/sass/components/_bg-video.scss" />
         <option value="$PROJECT_DIR$/sass/pages/_home.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sass/main.scss" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/sass/abstracts/_variables.scss" />
+        <option value="$PROJECT_DIR$/sass/components/_form.scss" />
       </list>
     </option>
   </component>
@@ -3117,6 +3127,11 @@
               <item name="natours" type="b2602c69:ProjectViewProjectNode" />
               <item name="natours" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="natours" type="b2602c69:ProjectViewProjectNode" />
+              <item name="natours" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="natours" type="b2602c69:ProjectViewProjectNode" />
@@ -3205,7 +3220,7 @@
       <workItem from="1549137356024" duration="3065000" />
       <workItem from="1549141345826" duration="26431000" />
       <workItem from="1549181660073" duration="5824000" />
-      <workItem from="1549229781675" duration="1420000" />
+      <workItem from="1549229781675" duration="2996000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1549078933144</created>
@@ -3396,11 +3411,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549228693117</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Created booking component.">
+      <created>1549231228657</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1549231228657</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46857000" />
+    <option name="totallyTimeSpent" value="48433000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3415,7 +3437,7 @@
     <frame x="1920" y="79" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21344717" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21344717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -3465,7 +3487,8 @@
     <MESSAGE value="Created story component" />
     <MESSAGE value="Added hover effect to story image" />
     <MESSAGE value="Added background video to the stories section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added background video to the stories section" />
+    <MESSAGE value="Created booking component." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created booking component." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/hero.jpg">
@@ -3564,18 +3587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/components/_bg-video.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -3597,13 +3608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/abstracts/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/pages/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="766">
@@ -3611,13 +3615,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/abstracts/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
+        <state relative-caret-position="134">
           <caret line="273" column="62" selection-start-line="273" selection-start-column="62" selection-end-line="273" selection-end-column="62" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#1;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/components/_form.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
         </state>
       </provider>
     </entry>
